@@ -21,7 +21,3 @@ The independent DistilBERT approach achieves slightly better overall CVSS Base M
 | Precision | 81.37% | **83.28%** |
 | Recall | 75.53% | **76.28%** |
 | F1 | 77.60% | **78.15%** |
-
-For severity classification, Independent DistilBERT also performs slightly better overall.
-
-For complete vector reconstruction, the two approaches perform very similarly. Independent DistilBERT has a small advantage in exact vector accuracy and average metrics correctly predicted, while Multi-Task DistilBERT achieves slightly lower CVSS Base Score MAE.
